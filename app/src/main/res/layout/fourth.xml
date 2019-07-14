@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cookandroid.projectmycinema.ThirdActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10sp"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        My Movie Diary"
+                android:textAlignment="center"
+                android:textColor="#555884"
+                android:textSize="30dp"
+                android:padding="10sp"
+                />
+            <ImageView
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:background="@drawable/ic_edit_black_24dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/testtv"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="@drawable/buttonedge2"
+            android:padding="15dp" />
+
+        <Button
+            android:background="#DDDDDD"
+            android:id="@+id/btnback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="돌아가기" />
+    </LinearLayout>
+</LinearLayout>
+
+
